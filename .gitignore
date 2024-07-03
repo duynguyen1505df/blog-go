@@ -1,0 +1,41 @@
+# Ignore binary and executable files for Go
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore dependency directories for Go
+vendor/
+ 
+# Ignore binary files for React/Next.js
+node_modules/
+.next/
+out/
+
+# Ignore environment file for React/Next.js (if applicable)
+.env
+
+# Ignore build artifacts for both Go and React/Next.js
+/build/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore JetBrains IDE files (if using JetBrains IDEs)
+.idea/
+
+# Ignore Visual Studio Code settings (if using VSCode)
+.vscode/
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore yarn integrity file
+.yarn-integrity
+
+# Ignore .env files with secrets
+.env*
+
+# Ignore logs
+logs/
+*.log

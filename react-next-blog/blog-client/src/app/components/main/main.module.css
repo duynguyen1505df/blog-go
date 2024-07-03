@@ -1,0 +1,8 @@
+.nav-link.activate {
+    background-color: rgba(128, 128, 128, 0.5)!important;
+    color: #ffffff!important;
+}
+
+.nav-link:hover {
+    background-color: rgba(128, 128, 128, 0.25);
+}
